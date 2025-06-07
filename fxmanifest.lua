@@ -1,6 +1,10 @@
 fx_version 'cerulean'
 game 'gta5'
 
+author 'Anthony // ZenLabs Development'
+version '1.0.1'
+description 'ZenLabs Engine Sound Menu - Change your vehicle's engine sound. Other player's hear it!'
+
 shared_script '@ox_lib/init.lua'
 lua54 'yes'
 
@@ -15,7 +19,3 @@ server_scripts {
 }
 
 dependency 'ox_lib'
-
-author 'Grav'
-version '1.6.3'
-description 'Engine sound menu that syncs to other players'
