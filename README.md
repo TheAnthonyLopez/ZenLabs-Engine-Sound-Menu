@@ -5,12 +5,11 @@ In this .readme file, you will find everything that is needing changed before yo
         ["Baller"] = "baller",
         ["Adder"] = "adder",
         ["Lazer"] = "lazer"
-Keybind = "", -- E.G F7 ---> https://docs.fivem.net/docs/game-references/controls/
-MenuPosition = "bottom-right", -- bottom-right, bottom-left, top-right, top-left
+        Keybind = "", -- E.G F7 ---> https://docs.fivem.net/docs/game-references/controls/
+        MenuPosition = "bottom-right", -- bottom-right, bottom-left, top-right, top-left
 
 # server_config.lua edits
         -- your permission function here - you can integrate your framework for jobs/perms etc
         return IsPlayerAceAllowed(src, 'enginesoundmenu')
-
-        If you have frameworks such as ESX/QBCore/QBox, then you will need to integrate some permission function before the return IsPlayerAceAllowed part.
+If you have frameworks such as ESX/QBCore/QBox, then you will need to integrate some permission function before the return IsPlayerAceAllowed part.
  
